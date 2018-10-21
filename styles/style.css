@@ -1,0 +1,28 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #191a1d;
+  font-family: "VT323", monospace;
+  color: #fff;
+  height: 100%;
+}
+
+body {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+canvas {
+  background: none;
+  margin: auto;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 20em;
+  transform: translateX(-50%) translateY(-50%);
+}
